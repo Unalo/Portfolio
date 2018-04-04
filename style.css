@@ -10,7 +10,6 @@
   display: block;
   margin-left: auto;
   margin-right: auto
-
 }
 .header{
   background-color: #b8b894;
@@ -25,25 +24,27 @@ h2 {
   text-shadow: 2px 2px 4px #000000;
   font-size: 30px;
 }
-.col-12 .nav {
-  width: 0 auto;
+#Nav {
+  margin: 0 auto;
 }
  ul {
-  list-style-type: none;
+
+  display: inline-block;
+  width: fit-content;
   margin: 0;
   padding: 0;
   background-color: #b2b266;
-  text-align: center;
   overflow: hidden;
 }
 li {
+  position: relative;
   text-align: center;
   display: inline-block;
   border-right: 1px solid #bbb;
   font-size: 25px;
-
 }
 li a {
+    text-align: center;
     font-weight: 300;
     display: block;
     color: black;
