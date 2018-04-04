@@ -1,22 +1,32 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .header img {
   width: 300px;
   height: 200px;
-  border-radius: 15px 50px;
-  display: inline-block;
-  position: relative;
-  bottom: 15px;
-  left: 20px;
+  border-radius: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+
+}
+.header{
+  background-color: #b8b894;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
 }
 .header h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
   font-size: 30px;
-  position: relative;
-  top: 1em;
-  vertical-align: top;
-  display: inline-block;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-left: 20px;
-  width: 8em;
+}
+.col-12 .nav {
+  width: 0 auto;
 }
  ul {
   list-style-type: none;
@@ -27,15 +37,16 @@
   overflow: hidden;
 }
 li {
+  text-align: center;
   display: inline-block;
   border-right: 1px solid #bbb;
   font-size: 25px;
-  float: left;
+
 }
 li a {
+    font-weight: 300;
     display: block;
     color: black;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -43,6 +54,63 @@ li a:hover {
     background-color: #555;
     color: white;
 }
-.current {
-  background-color: #d4d4aa;
+
+p {
+  text-align: justify;
+}
+.btn1 {
+  width: 200px;
+  height: 100px;
+  text-decoration: none;
+  border: 2px solid #66e0ff;
+  color: black;
+  background: white;
+  padding: 15px;
+  font-size: 19px;
+  text-align: center;
+}
+#About a:hover {
+  background-color: #b3f0ff;
+  color: white;
+}
+.btn {
+  width: 200px;
+  height: 100px;
+  text-decoration: none;
+  border: 2px solid #66e0ff;
+  color: black;
+  background: white;
+  padding: 15px;
+  font-size: 19px;
+  text-align: center;
+  position: relative;
+}
+#Front-End  a:hover {
+  background-color: #b3f0ff;
+  color: white;
+}
+#Front-End  {
+  padding-bottom: 20px;
+  text-align: center;
+}
+#Front-End p {
+  font-weight: 500;
+  text-align: center;
+}
+#Back-End p {
+  font-weight: 500;
+  text-align: center;
+}
+.foot {
+    background-color: #e5e5cc;
+}
+
+.foot img {
+  position: relative;
+  top: 2px;
+  left: 40%;
+  bottom: 10px;
+  padding-left: 5px;
+  width: 60px;
+  height: 50px;
 }

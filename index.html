@@ -1,36 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>My Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="simple-grid.css">
-  </head>
+    <head>
+      <meta charset="utf-8">
+      <title>My Personal Portfolio</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="simple-grid.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
   <body>
-    <div class="header">
-      <div class="row">
-        <div class="col-4">
-    <img src="img/unalo.JPG" alt="me">
-      </div>
-      <div class="col-8">
-    <h1>Unalo Mtshokotsha</h1>
-    </div>
-    </div>
-    </div>
-    <div class="nav bar">
+    <div class="container">
+      <div class="Page">
+        <div class="header">
+            <div class="row">
+              <div class="col-12">
+                <img src="img/unalo.JPG" alt="me">
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-12">
+                  <h1 >Unalo Mtshokotsha</h1>
+                </div>
+              </div>
+        </div>
+          <div class="row">
+            <div class="col-10 nav">
+              <ul>
+                <li> <a class="current" href="#">Home</a> </li>
+                <li> <a href="#About" >About</a> </li>
+                <li> <a href="#Front-End">Front-End</a> </li>
+                <li> <a href="#Back-End">Back-End</a> </li>
+                <li> <a href="#Contacts">Contacts</a> </li>
+              </ul>
+            </div>
+          </div>
+        <div id="About">
+          <div class="row">
+            <div class="col-12">
+              <h2>About</h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                <a href="https://cvmkr.com/UBSr" target="_blank" class="btn1"/>Resume</a>
+              </div>
+            </div>
+        </div>
       <div class="row">
         <div class="col-12">
-      <ul>
-        <li> <a class="current" href="#">Home</a> </li>
-        <li> <a href="https://cvmkr.com/UBSr" target="_blank">About</a> </li>
-        <li> <a href="https://unalo.github.io/basic-webpage/landing-page" target="_blank">Front-End</a> </li>
-        <li> <a href="#">Back-End</a> </li>
-      </ul>
+          <div id="Front-End">
+            <h2>Front-End Projects</h2>
+              <p>Done Projects to date, More coming!</p>
+              <a href="https://unalo.github.io/basic-webpage/landing-page" target="_blank" class="btn"/>Webpage</a>
+              <a href="https://unalo.github.io/bootcamp-Tests/index.html" target="_blank" class="btn"/>bootcamp-Tests</a>
+          </div>
+        </div>
       </div>
-      </div>
-    </div>
-    <div id="About">
-
+        <div class="row">
+          <div class="col-12">
+            <div id="Back-End">
+              <h2>Back-End Projects</h2>
+                <p>No Projects Yet....</p>
+            </div>
+          </div>
+        </div>
+            <footer class="foot">
+                <div class="row">
+                  <div class="col-12">
+                    <small id="Contacts" >&copy; copyright  2018  @Unalo Mtshokotsha</small>
+                    <a  href="https://www.facebook.com/tsounalo.mtshokotsha" target="_blank">
+                    <img clearfix src="img/facebook.png" alt="facebook">
+                    </a>
+                    <a  href="https://twitter.com/Tso_Mayne" target="_blank">
+                    <img clearfix src="img/twitter.png" alt="Twitter">
+                    </a>
+                    <a  href="https://github.com/Unalo" target="_blank">
+                    <img clearfix src="img/Github.png" alt="Github">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </footer>
     </div>
   </body>
 </html>
